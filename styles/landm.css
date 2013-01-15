@@ -1,0 +1,40 @@
+
+@import 'blueprint/screen.css';
+
+body
+{
+	color: #666;
+}
+
+h1, h2, h3
+{
+	font-family: Georgia;
+	font-style: italic;
+}
+
+
+a
+{
+	text-decoration: none;
+}
+
+
+/* flickr styles */
+.zg_div {
+   margin: 0px 5px 5px 0px;
+   width: 117px;
+} 
+
+.zg_div_inner {
+   background-color: #ffffff;
+   color: #666666;
+   text-align: center;
+   font-family: "Arial", "Helvetica", sans-serif;
+   font-size: 11px;
+} 
+
+.zg_div a, .zg_div a:hover, .zg_div a:visited {
+   color:#0033dd;
+   background: inherit !important;
+   text-decoration: none !important;
+}

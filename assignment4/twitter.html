@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//WAPFORUM//DTD XHTML Mobile 1.0//EN" "http://www.wapforum.org/DTD/xhtml-mobile10.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="apple-touch-icon" href="http://a1.twimg.com/a/1257465343/images/twitter_57.png" />
+<title>Twitter</title>
+<style type="text/css">
+body {background-color:#ffffff;color:#333333;font-family: Helvetica,sans-serif;}
+body,ul,li,table,tr,td {margin:0;padding:0;}
+img {border:0;}
+div,ul,form,p{padding-left:2px;}
+a {color:#13819f;text-decoration:none;}
+a:active, .b:active {text-decoration:underline;color:#aaaaaa;}
+.i, .b {background-color:#ffffff;border: 1px solid #aaaaaa;color:#333333;}
+.i {margin-bottom:2px;}
+.gb {background-color: #E8FECD; border:1px solid #A9BF74;margin: 20px 3px 5px; padding: 6px;}
+.gt {border-bottom: 1px solid #A9BF74;padding:0px 3px 3px;margin:0px 0px 8px;}
+fieldset {border:none;margin:0;padding:0;}
+.banner {background-color:#9ae4e8;padding:3px;}
+.tagline {margin:12px 0px 12px 0px}
+label {font-weight:bold;}
+.foot {text-align:center;margin-top:3px;font-size:small}
+</style>
+</head>
+<body>
+<div class="banner"><a href="http://m.twitter.com/home"><img src="./images/mobile.gif" alt="Twitter" width="78" height="18"/></a></div>
+<div class="tagline">Communicate and stay connected through the exchange of short status messages.</div>
+<div class="gb">
+  <div class="gt">Please sign in.</div>
+  <form action="/sessions" method="post"><fieldset>
+    <label for="session-username_or_email">Username <input class="i" id="session-username_or_email" name="session[username_or_email]" type="text" value="" /></label>
+    <br/>
+    <label for="session-password">Password <input class="i" id="session-password" name="session[password]" type="password" value="" /></label>
+    <br/>
+    <input class="b" name="commit" type="submit" value="Sign In" />
+    </fieldset>
+  </form>
+</div>
+<div class="banner foot">View Twitter in:  <form action="/sessions/change_ui" method="post"><fieldset><input type="submit" value="Standard" class="b" /><input name="ui_type" type="hidden" value="s"/><input name="authenticity_token" type="hidden" value="65924e7e03acff82dd5c475f27b9125d9a8648f2" /></fieldset></form><br/>&copy; 2006-2009 Twitter</div>
+</body>
+</html>
