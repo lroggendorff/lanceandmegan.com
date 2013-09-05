@@ -37,41 +37,10 @@ function initialize()
 google.setOnLoadCallback(initialize);
 
 </script>
-<script type="text/javascript" src="http://widgets.twimg.com/j/2/widget.js"></script>
-<script type="text/javascript">
-var g_TWTR_Settings = {
-  version: 2,
-  type: 'profile',
-  rpp: 3,
-  interval: 6000,
-  width: 'auto',
-  height: 180,
-  theme: {
-    shell: {
-      background: '#ffffff',
-      color: '#6f6f6f'
-    },
-    tweets: {
-      background: '#ffffff',
-      color: '#6f6f6f',
-      links: '#000099'
-    }
-  },
-  features: {
-    scrollbar: false,
-    loop: false,
-    live: true,
-    hashtags: true,
-    timestamp: true,
-    avatars: false,
-    behavior: 'all'
-  }
-};
-</script>
 <script type="text/javascript" src="scripts/dishy.js">;</script>
 <script type="text/javascript">
 
-    // change properties 
+    // change properties
     dishy.owner = 'lancelot183';
     dishy.fontMin = 9,
     dishy.fontMax = 18,
@@ -103,13 +72,11 @@ var g_TWTR_Settings = {
     }
     function returnlinkdata(){
         dishy.output.innerHTML= dishy.tagHTML[dishy.currentTag];  // from getByTag()
-    }	
-
+    }
 
 </script>
 
 <style type="text/css">table.lfmWidget90b7551b4e023b0e5a7fa30cbdb086f1 td {margin:0 !important;padding:0 !important;border:0 !important;}table.lfmWidget90b7551b4e023b0e5a7fa30cbdb086f1 tr.lfmHead a:hover {background:url(http://cdn.last.fm/widgets/images/en/header/chart/topartists_regular_blue.png) no-repeat 0 0 !important;}table.lfmWidget90b7551b4e023b0e5a7fa30cbdb086f1 tr.lfmEmbed object {float:left;}table.lfmWidget90b7551b4e023b0e5a7fa30cbdb086f1 tr.lfmFoot td.lfmConfig a:hover {background:url(http://cdn.last.fm/widgets/images/en/footer/blue.png) no-repeat 0px 0 !important;;}table.lfmWidget90b7551b4e023b0e5a7fa30cbdb086f1 tr.lfmFoot td.lfmView a:hover {background:url(http://cdn.last.fm/widgets/images/en/footer/blue.png) no-repeat -85px 0 !important;}table.lfmWidget90b7551b4e023b0e5a7fa30cbdb086f1 tr.lfmFoot td.lfmPopup a:hover {background:url(http://cdn.last.fm/widgets/images/en/footer/blue.png) no-repeat -159px 0 !important;}</style>
-    
 </head>
 
 <body>
@@ -123,7 +90,8 @@ var g_TWTR_Settings = {
     <div class="column span-12">
       <p>lroggendorff at gmail.com<br/><a href="http://facebook.com/lroggendorff">facebook.com/lroggendorff</a></p>
       <div class="column span-10 append-2">
-      <script>new TWTR.Widget(g_TWTR_Settings).render().setUser('lroggendorff').start();</script>
+        <a class="twitter-timeline" href="https://twitter.com/lroggendorff" data-widget-id="375468574065688576">Tweets by @lroggendorff</a>
+        <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
       </div>
       <div class="column span-10 append-2">
       <div class="gfc-resultsHeader">
@@ -140,20 +108,18 @@ var g_TWTR_Settings = {
         </div>
       <p title="gimmes"><a href="http://www.thinkgeek.com/brain/gimme.cgi?wid=81ce43514">thinkgeek wishlist</a></p>
     </div>
-    
     <div class="column span-12 last">
         <p>megan.roggendorff at gmail.com<br/><a href="http://facebook.com/megan.roggendorff">facebook.com/megan.roggendorff</a></p>
         <div class="column span-10 append-2">
-        <script>new TWTR.Widget(g_TWTR_Settings).render().setUser('meggierogg').start();</script>
+          <a class="twitter-timeline" href="https://twitter.com/meggierogg" data-widget-id="375468805545144323">Tweets by @meggierogg</a>
+          <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
         </div>
         <div class="column span-10 append-2" id="meganFeeds"></div>
     </div>
     <hr />
     <div class="column span-8">
         <!-- Start of Flickr Badge -->
-        <script type="text/javascript" charset="utf-8">
-        // <![CDATA[
-        
+        <script>
         zg_insert_badge = function() {
         var zg_bg_color = 'ffffff';
         var zgi_url = 'http://www.flickr.com/apps/badge/badge_iframe.gne?zg_bg_color='+zg_bg_color+'&zg_person_id=91766768%40N00';
@@ -165,7 +131,6 @@ var g_TWTR_Settings = {
         document.getElementById('zg_whatlink').style.display = (document.getElementById('zg_whatdiv').style.display != 'none') ? 'none' : 'block';
         return false;
         }
-        // ]]>
         </script>
         <div class="zg_div"><div class="zg_div_inner"><a href="http://www.flickr.com">www.<strong style="color:#3993ff">flick<span style="color:#ff1c92">r</span></strong>.com</a><br />
         <script type="text/javascript">zg_insert_badge();</script>
