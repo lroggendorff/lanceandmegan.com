@@ -42,16 +42,15 @@
             var parsed = queryString.parse(location.search);
             var member = parsed.member;
             if (member) {
-                var funnel = {
+                var step = {
                     member: member ? member : "None",
-                    funnel: "Funnel Step 1",
                     referrer: document.referrer,
                     keen: {
                         timestamp: new Date().toISOString()
                     }
                 };
 
-                client.addEvent("funnels", funnel);
+                client.addEvent("Funnel Step 1", step);
 
                 jQuery(function($) {
                     $('.tracker').each(function() {
